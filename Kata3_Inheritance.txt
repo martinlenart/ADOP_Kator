@@ -39,7 +39,7 @@ Nu har du en kopia av "Inheritance" på GitHub
 	Lägg till i ToString() så att även Benefits skrivs ut
 	Gör en lokal commit och kalla den "Member implemented"
 
-12. I egen fil skapa en class RadissonMember som implementerar IRadissonMember.
+12. I egen fil skapa en class RadissonMember som ärver från Member och implementerar IRadissonMember.
 	Gör override property Benefits {get; set;} 
 	virtual (i Member) och override i (RadissonMember) gör Benefits polymorfiskt
 	Gör en lokal commit
