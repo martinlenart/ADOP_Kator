@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA621887-9F40-48BE-B3CC-E3067DF76876}"
+	ProjectSection(SolutionItems) = preProject
+		Kata02_IEquatable_IComparable_Factory.txt = Kata02_IEquatable_IComparable_Factory.txt
+		Kata03_Inheritance.txt = Kata03_Inheritance.txt
+		Kata04_Immutabilty.txt = Kata04_Immutabilty.txt
+		Kata05_Delegates_Lamda.txt = Kata05_Delegates_Lamda.txt
+		Kata06_Events.txt = Kata06_Events.txt
+		Kata07_IEnumerable.txt = Kata07_IEnumerable.txt
+		Kata08_Linq.txt = Kata08_Linq.txt
+		Kata09_Linq.txt = Kata09_Linq.txt
+		Kata10_Serialization.txt = Kata10_Serialization.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata02_IEquatable_IComparable_Factory", "Kata02_IEquatable_IComparable_Factory\Kata02_IEquatable_IComparable_Factory.csproj", "{46D801B6-B18E-4844-A93D-307887A7F282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata03_Inheritance", "Kata03_Inheritance\Kata03_Inheritance.csproj", "{0E0A6837-F1FF-4B81-9DF2-C17E95EBF9D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata04_Immutability", "Kata04_Immutability\Kata04_Immutability.csproj", "{56E13A12-B6F0-40EF-B288-5A0D0139C8EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata05_Delegates_Lamda", "Kata05_Delegates_Lamda\Kata05_Delegates_Lamda.csproj", "{9E894C82-34F3-480D-BCDA-1A7F4D839828}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata07_IEnumerable", "Kata07_IEnumerable\Kata07_IEnumerable.csproj", "{ADF8E11B-8AB4-489D-8FC4-51BBCB172D65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata08_Linq", "Kata08_Linq\Kata08_Linq.csproj", "{13BA7A2C-3BA7-489C-8CFE-B2F618016261}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata09_Linq", "Kata09_Linq\Kata09_Linq.csproj", "{A2F20F15-32CF-4A44-A42B-17125CC0AA8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata10_Serialization", "Kata10_Serialization\Kata10_Serialization.csproj", "{6CF605EC-3739-45CC-A684-CC1914103186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata06_Events", "Kata06_Events\Kata06_Events.csproj", "{DFFFB08C-8CC7-497A-975C-8C9BA80C5090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D801B6-B18E-4844-A93D-307887A7F282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D801B6-B18E-4844-A93D-307887A7F282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D801B6-B18E-4844-A93D-307887A7F282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D801B6-B18E-4844-A93D-307887A7F282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0A6837-F1FF-4B81-9DF2-C17E95EBF9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0A6837-F1FF-4B81-9DF2-C17E95EBF9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0A6837-F1FF-4B81-9DF2-C17E95EBF9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0A6837-F1FF-4B81-9DF2-C17E95EBF9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E13A12-B6F0-40EF-B288-5A0D0139C8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E13A12-B6F0-40EF-B288-5A0D0139C8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E13A12-B6F0-40EF-B288-5A0D0139C8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E13A12-B6F0-40EF-B288-5A0D0139C8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E894C82-34F3-480D-BCDA-1A7F4D839828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E894C82-34F3-480D-BCDA-1A7F4D839828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E894C82-34F3-480D-BCDA-1A7F4D839828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E894C82-34F3-480D-BCDA-1A7F4D839828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF8E11B-8AB4-489D-8FC4-51BBCB172D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF8E11B-8AB4-489D-8FC4-51BBCB172D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF8E11B-8AB4-489D-8FC4-51BBCB172D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF8E11B-8AB4-489D-8FC4-51BBCB172D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BA7A2C-3BA7-489C-8CFE-B2F618016261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BA7A2C-3BA7-489C-8CFE-B2F618016261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BA7A2C-3BA7-489C-8CFE-B2F618016261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BA7A2C-3BA7-489C-8CFE-B2F618016261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F20F15-32CF-4A44-A42B-17125CC0AA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F20F15-32CF-4A44-A42B-17125CC0AA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F20F15-32CF-4A44-A42B-17125CC0AA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F20F15-32CF-4A44-A42B-17125CC0AA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF605EC-3739-45CC-A684-CC1914103186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF605EC-3739-45CC-A684-CC1914103186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF605EC-3739-45CC-A684-CC1914103186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF605EC-3739-45CC-A684-CC1914103186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFFB08C-8CC7-497A-975C-8C9BA80C5090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFFB08C-8CC7-497A-975C-8C9BA80C5090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFFB08C-8CC7-497A-975C-8C9BA80C5090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFFB08C-8CC7-497A-975C-8C9BA80C5090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F7CBFED-753B-4EC5-9D71-523CA224FF4E}
+	EndGlobalSection
+EndGlobal
