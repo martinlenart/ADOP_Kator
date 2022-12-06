@@ -58,10 +58,10 @@ namespace Kata02_IEquatable_IComparable_Factory
                         var Since = new DateTime(year, month, day);
                         var Level = (MemberLevel)rnd.Next((int)MemberLevel.Platinum, (int)MemberLevel.Blue + 1);
 
-                        string[] _firstnames = "Fred John Mary Jane Oliver Marie".Split(' ');
-                        string[] _lastnames = "Johnsson Pearsson Smith Ewans Andersson".Split(' ');
-                        var FirstName = _firstnames[rnd.Next(0, _firstnames.Length)];
-                        var LastName = _lastnames[rnd.Next(0, _lastnames.Length)];
+                        var _fnames = "Harry, Lord, Hermione, Albus, Severus, Ron, Draco, Frodo, Gandalf, Sam, Peregrin, Saruman".Split(", ");
+                        var _lnames = "Potter, Voldemort, Granger, Dumbledore, Snape, Malfoy, Baggins, the Gray, Gamgee, Took, the White".Split(", ");
+                        var FirstName = _fnames[rnd.Next(0, _fnames.Length)];
+                        var LastName = _lnames[rnd.Next(0, _lnames.Length)];
 
                         var member = new Member { FirstName = FirstName, LastName = LastName, Level = Level, Since = Since};
                         return member;
@@ -73,10 +73,10 @@ namespace Kata02_IEquatable_IComparable_Factory
                 //Alternative 1: A better alternative and perhaps clearer alternative
                 var Level = (MemberLevel)rnd.Next((int)MemberLevel.Platinum, (int)MemberLevel.Blue + 1);
 
-                string[] _firstnames = "Fred John Mary Jane Oliver Marie".Split(' ');
-                string[] _lastnames = "Johnsson Pearsson Smith Ewans Andersson".Split(' ');
-                var FirstName = _firstnames[rnd.Next(0, _firstnames.Length)];
-                var LastName = _lastnames[rnd.Next(0, _lastnames.Length)];
+                var _fnames = "Harry, Lord, Hermione, Albus, Severus, Ron, Draco, Frodo, Gandalf, Sam, Peregrin, Saruman".Split(", ");
+                var _lnames = "Potter, Voldemort, Granger, Dumbledore, Snape, Malfoy, Baggins, the Gray, Gamgee, Took, the White".Split(", ");
+                var FirstName = _fnames[rnd.Next(0, _fnames.Length)];
+                var LastName = _lnames[rnd.Next(0, _lnames.Length)];
 
                 bool dateOK = false;
                 DateTime Since = default;
