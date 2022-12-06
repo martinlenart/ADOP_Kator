@@ -45,6 +45,8 @@ namespace Kata02_IEquatable_IComparable_Factory
             public static Member CreateRandom()
             {
                 var rnd = new Random();
+                //Alternative 1: Lazy mans alternative
+                /*
                 while (true)
                 {
                     try
@@ -66,6 +68,36 @@ namespace Kata02_IEquatable_IComparable_Factory
                     }
                     catch { }
                 }
+                */
+
+                //Alternative 1: A better alternative and perhaps clearer alternative
+                var Level = (MemberLevel)rnd.Next((int)MemberLevel.Platinum, (int)MemberLevel.Blue + 1);
+
+                string[] _firstnames = "Fred John Mary Jane Oliver Marie".Split(' ');
+                string[] _lastnames = "Johnsson Pearsson Smith Ewans Andersson".Split(' ');
+                var FirstName = _firstnames[rnd.Next(0, _firstnames.Length)];
+                var LastName = _lastnames[rnd.Next(0, _lastnames.Length)];
+
+                bool dateOK = false;
+                DateTime Since = default;
+                while (!dateOK)
+                {
+                    try
+                    {
+                        int year = rnd.Next(1980, DateTime.Today.Year + 1);
+                        int month = rnd.Next(1, 13);
+                        int day = rnd.Next(1, 31);
+
+                        Since = new DateTime(year, month, day);
+                        dateOK = true;
+                      }
+                    catch 
+                    {
+                        dateOK = true;
+                    }
+                }
+                var member = new Member { FirstName = FirstName, LastName = LastName, Level = Level, Since = Since };
+                return member;
             }
         }
         #endregion
