@@ -56,6 +56,8 @@ namespace Kata02_IEquatable_IComparable_Factory
 
         public MemberList() { }
 
+        //Copy constructorn has to take a parameter of type MemberList to be
+        //able to access and copy _members which is private
         public MemberList(MemberList org)
         {
             //Shallow Copy
