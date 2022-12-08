@@ -86,14 +86,14 @@ namespace Kata02_IEquatable_IComparable_Factory
                     {
                         int year = rnd.Next(1980, DateTime.Today.Year + 1);
                         int month = rnd.Next(1, 13);
-                        int day = rnd.Next(1, 31);
+                        int day = rnd.Next(1, 32);
 
                         Since = new DateTime(year, month, day);
                         dateOK = true;
                       }
                     catch 
                     {
-                        dateOK = true;
+                        dateOK = false;
                     }
                 }
                 var member = new Member { FirstName = FirstName, LastName = LastName, Level = Level, Since = Since };
@@ -105,7 +105,7 @@ namespace Kata02_IEquatable_IComparable_Factory
         public Member() { }
 
         #region Copy Constructor
-        public Member(IMember src)
+        public Member(Member src)
         {
             FirstName = src.FirstName;
             LastName = src.LastName;

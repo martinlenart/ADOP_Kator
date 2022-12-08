@@ -7,7 +7,7 @@ IMember member2 = Member.Factory.CreateRandom();
 Console.WriteLine($"member2: {member2}");
 
 Console.WriteLine("Test the copy constructor");
-IMember member3 = new Member(member1);
+IMember member3 = new Member((Member)member1);
 Console.WriteLine($"member3: {member3}");
 
 Console.WriteLine("\nCreate a 20 Hilton members");
