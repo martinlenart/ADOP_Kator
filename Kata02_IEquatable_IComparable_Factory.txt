@@ -6,7 +6,7 @@ Du ska även implementera relevanta Interfaces för Member och MemberList samt I
 för .NET list hantering, tex Sort(). Slutligen initierar du en instanser av Member och MemberList initierade med
 relevant men slumpmässig data genom att en class Factory.
 
-1. Skapa ett nytt projekt som heter "Kata02_IEquatable_IComparable_Factory".
+1. Skapa ett nytt projekt som heter "Kata02".
 
 2. Deklarera ett interface, IMember, som definierar
 	- Medlemmens för- och efternamn (property get; set;) av typen string

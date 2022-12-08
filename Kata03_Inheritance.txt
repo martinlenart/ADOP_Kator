@@ -4,9 +4,9 @@ Bygger vidare på Kata02 och övar arv och polymorfism
 Vi ska också öva lite mer avancerad Git;
   - git commit, git squash, git revert, git reset, git branch, git checkout, git push, git fetch, git pull, git merge, git cherrypick, git ammend
 
-1. Skapa ett nytt projekt som heter "Kata03_Inheritance". Kopiera alla kodfiler från Kata02 in i det nya projektet
-2. Ändra namespace i alla filer i projektet till "Kata03_Inheritance"
-3. Skapa en ny Git repository lokalt och på Github
+1. Skapa ett nytt projekt som heter "Kata03". Kopiera alla kodfiler från Kata02 in i det nya projektet
+2. Ändra namespace i alla filer i projektet till "Kata03"
+3. Skapa en ny Git repository lokalt och på Github och en git commit
 4. Skapa en Git Branch som du kallar Inheritance. Gör git checkout till den nyskapade Branchen
 
 Nu har du en körbar startpunkt

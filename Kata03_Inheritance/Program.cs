@@ -4,8 +4,9 @@
 //is written out correctly due to polyforfism
 Console.WriteLine("Create Radisson and Hilton Members");
 IMember myRadisson = RadissonMember.Factory.CreateRandom();
-IMember myHilton = HiltonMember.Factory.CreateRandom();
 Console.WriteLine(myRadisson);
+
+IMember myHilton = HiltonMember.Factory.CreateRandom();
 Console.WriteLine(myHilton);
 
 //Notice that below Benefits will be "Nothing"
