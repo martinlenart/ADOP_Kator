@@ -32,4 +32,7 @@ IMemberList copyList = new MemberList((MemberList)HiltonMembers);
 Console.WriteLine(copyList);
 Console.WriteLine(copyList[10]);
 
+HiltonMembers[10].FirstName = "Test";
+Console.WriteLine(copyList[10]);
+
 

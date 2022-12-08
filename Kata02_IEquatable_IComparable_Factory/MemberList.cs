@@ -67,7 +67,7 @@ namespace Kata02_IEquatable_IComparable_Factory
             _members = new List<IMember>();
             foreach (var item in org._members)
             {
-                _members.Add(new Member(item));
+                _members.Add(new Member((Member)item));
             }
             
             //Deep copy using Linq
