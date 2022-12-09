@@ -10,7 +10,7 @@ relevant men slumpmässig data genom att en class Factory.
 
 2. Deklarera ett interface, IMember, som definierar
 	- Medlemmens för- och efternamn (property get; set;) av typen string
-	- Medlemmens bonusnivå (property get; set;) av typen enum MemberLevel {Blue, Silver, Gold, Platinum} 
+	- Medlemmens bonusnivå (property get; set;) av typen MemberLevel { Platinum, Gold, Silver, Blue} 
 	- Datum medlemskapet startades (property get; set;) av typen DateTime
 	- Tänk på att deklarera enum typen MemberLevel i samma fil som IMember då de hör tillsammans
 
